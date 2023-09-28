@@ -7,14 +7,14 @@ pipeline {
 			}
 		}
 		stage('Test') {
-			teps{
+			steps{
 			echo "Test"
 			}
 		}
 		stage ('Integration Test') {
-			teps{
+			steps{
 			echo "Integration Test"
 			}
 		}
-		}
 	}
+}
